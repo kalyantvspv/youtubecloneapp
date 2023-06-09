@@ -1,0 +1,68 @@
+
+.container-top
+{
+    border:1px solid black;
+    display:flex;
+    height:calc(3.5rem-2px);
+    background-color: rgb(33,33,33);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.burger-logo
+{
+    display:flex;
+    height:3.5rem;
+}
+
+.burger{
+    display:flex;
+    flex-direction: column;
+    cursor:pointer;
+    justify-content: space-evenly;
+    margin:0.05rem;
+    padding:0.05rem; 
+    height:2rem;
+    border:1px solid transparent;
+    margin-left: 1.5rem;
+    margin-right:1rem;
+    border-radius: 100%;
+    margin-top:0.65rem;
+}
+
+.burger p{
+  margin:0.1rem;
+  width:1.4rem;
+  height:0.1rem;
+  background-color: rgb(255, 255, 255);
+}
+.logo
+{
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+}
+.logo img{
+    width:3rem;
+    height:3rem;
+}
+.logo p
+{
+    margin:auto;
+    color: white;
+    font-weight: bolder;
+}
+
+.username{
+    color:white;
+    background-color: red;
+    height:1rem;
+    width:1rem;
+    margin:0.35rem;
+    border:0.4rem solid transparent;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
