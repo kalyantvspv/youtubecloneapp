@@ -1,0 +1,28 @@
+.comment_container{
+    display:flex;
+}
+
+.comment_input{
+    color:white;
+    width:50rem;
+    border:0px;
+    background-color: rgb(11, 10, 10);
+    border-bottom:1px solid rgb(127, 114, 114);
+    margin:1rem;
+}
+.comment_submit{
+    cursor:pointer;
+}
+
+.edit-delete i{
+  margin:0.5rem;
+  color: white;
+  padding:0.2rem;
+  border:1px solid transparent;
+  cursor:pointer;
+  background-color: rgb(71, 65, 65);
+}
+
+.edit-delete i:hover{
+    background-color: black;
+}
